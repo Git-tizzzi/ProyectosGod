@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Godoy Portfolio 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="orden.css">
+<body>
+<nav>
+  <a href="#" class="logo">
+    <span class="logo-bracket">PR</span>
+    7° 4° <span>·</span> <span>2026</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#students" class="active">Estudiantes</a></li>
+    <li><a href="#projects">Proyectos</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+</nav>
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-badge">7° 4° Programación · Portfolio 2026</div>
+  <h1>
+    Proyectos<br>
+    <span class="line2">PDISC</span>
+  </h1>
+
+  <div class="hero-cta">
+    <a href="#students" class="btn btn-primary">Ver el equipo</a>
+    <a href="#projects" class="btn btn-ghost">Nuestros proyectos</a>
+  </div>
+</section>
+<section id="students">
+  <div class="section-inner">
+    <p class="section-tag reveal">Nuestro grupo</p>
+    <h2 class="section-title reveal">Integrantes:</h2>
+    <div class="students-grid">
+      <div class="student-card reveal" onclick="openModal('Lucas','M.','Python · Backend','Desarrollador apasionado por la inteligencia artificial y los sistemas distribuidos. Le encanta resolver problemas complejos con código elegante.',['Python','Backend','IA'])">
+        <div class="avatar"><img src="img/skinny.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Santiago Polanco</div>
+          <div class="student-role">Backend</div>
+          <div class="tags">
+            <span class="tag tag-green">HTML</span>
+            <span class="tag tag-blue">CSS</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="student-card reveal" onclick="openModal('Sofía','G.','UI/UX · Design','Diseñadora UX con ojo para los detalles. Crea interfaces que son tanto bellas como funcionales, centradas en el usuario.',['UI/UX','Design','Figma'])">
+        <div class="avatar"><img src="img/murua.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Thiago Murua</div>
+          <div class="student-role">Backend</div>
+          <div class="tags">
+            <span class="tag tag-blue">HTML</span>
+            <span class="tag tag-gold">JavaScript</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="student-card reveal" onclick="openModal('Diego','R.','Data Science · AI','Entusiasta de los datos y la ciencia. Transforma conjuntos de datos complejos en insights accionables para la toma de decisiones.',['IA','Data Science','ML'])">
+        <div class="avatar"><img src="img/tulin.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Tobias Tula</div>
+          <div class="student-role">IA y Documentacion</div>
+          <div class="tags">
+            <span class="tag tag-green">IA´s</span>
+            <span class="tag tag-blue">Word</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="student-card reveal" onclick="openModal('Valentina','C.','AI · Full Stack','Desarrolladora full stack con experiencia en modelos de lenguaje y aplicaciones web modernas. Apasionada por la ética en IA.',['IA','Full Stack','React'])">
+        <div class="avatar"><img src="img/tizi.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Tiziano Grandiccelli</div>
+          <div class="student-role">Frontend</div>
+          <div class="tags">
+            <span class="tag tag-green">CSS</span>
+            <span class="tag tag-gold">HTML</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="student-card reveal" onclick="openModal('Matías','S.','DevOps · Cloud','Especialista en infraestructura y automatización. Garantiza que los proyectos del equipo estén siempre disponibles y escalables.',['DevOps','Cloud','Docker'])">
+        <div class="avatar"><img src="img/martina.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Martina Lalin</div>
+          <div class="student-role">Documentacion</div>
+          <div class="tags">
+            <span class="tag tag-blue">Canva</span>
+            <span class="tag tag-green">Figma</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="student-card reveal" onclick="openModal('Isabella','F.','Mobile · AI','Desarrolladora mobile especializada en apps iOS/Android con integración de IA. Sus apps han sido descargadas por miles de usuarios.',['Mobile','IA','Flutter'])">
+        <div class="avatar"><img src="img/mai.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Maitena Gonzales</div>
+          <div class="student-role">Documentacion y Frontend</div>
+          <div class="tags">
+            <span class="tag tag-green">CSS y HTML</span>
+            <span class="tag tag-blue">Figma y Canva</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="student-card reveal" onclick="openModal('Alex','T.','Cybersecurity','Experto en seguridad informática y ethical hacking. Protege los sistemas del equipo y evangeliza buenas prácticas de seguridad.',['Cybersecurity','Networking','Python'])">
+        <div class="avatar"><img src="img/ulises.jpeg"></div>
+        <div class="student-info">
+          <div class="student-name">Ulises Lujan</div>
+          <div class="student-role">Backend</div>
+          <div class="tags">
+            <span class="tag tag-gold">BD</span>
+            <span class="tag tag-green">JavaScript</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-tag reveal">Proyectos</p>
+    <h2 class="section-title reveal">Proyectos <br>Destacados</h2>
+    <p class="section-sub reveal">Presentaciones y trabajos realizados durante el año. </p>
+   
+    <div class="projects-grid">
+      <a class="project-card reveal" href="https://drive.google.com/file/d/1JtZgzzsUS3q6i__d8_By-QqEZzwx6sC-/view?usp=drive_link" target="_blank">
+        <div class="project-thumb">
+          <div class="project-thumb-pattern"></div>
+          <span class="project-type-badge tag-green">Presentacion 1</span>
+          <span class="project-gdrive-badge">📎 Drive</span>
+          <div class="project-thumb-icon">💼</div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Sistemas, roles y metodologias de desarrollo</div>
+          <p class="project-desc">Explicamos los sistemas informaticos y su uso en las empresas.</p>
+          <div class="project-footer">
+            <div class="project-members">
+              <div class="member-dot">SP</div>
+              <div class="member-dot">TM</div>
+              <div class="member-dot">TT</div>
+              <div class="member-dot">TG</div>
+              <div class="member-dot">ML</div>
+              <div class="member-dot">MG</div>
+              <div class="member-dot">UL</div>
+            </div>
+            <span class="project-link">Ver trabajo →</span>
+          </div>
+        </div>
+      </a>
+      <a class="project-card reveal" href="https://drive.google.com/drive/folders/TU_FOLDER_ID_AQUI" target="_blank">
+        <div class="project-thumb">
+          <div class="project-thumb-pattern"></div>
+          <span class="project-type-badge tag-blue">Presentacion 2</span>
+          <span class="project-gdrive-badge">📎 Drive</span>
+          <div class="project-thumb-icon">🏠</div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">IoT Domótica</div>
+          <p class="project-desc">Sistema de automatización del hogar con sensores inteligentes, control por voz y dashboard en tiempo real.</p>
+          <div class="project-footer">
+            <div class="project-members">
+              <div class="member-dot">SP</div>
+              <div class="member-dot">TM</div>
+              <div class="member-dot">TT</div>
+              <div class="member-dot">TG</div>
+              <div class="member-dot">ML</div>
+              <div class="member-dot">MG</div>
+              <div class="member-dot">UL</div>
+            </div>
+            <span class="project-link">Ver trabajo →</span>
+          </div>
+        </div>
+      </a>
+      <a class="project-card reveal" href="https://drive.google.com/file/d/13xJvpCdQ9RZFX-FCYaniXNCSaBTQCy0U/view?usp=drive_link" target="_blank">
+        <div class="project-thumb">
+          <div class="project-thumb-pattern"></div>
+          <span class="project-type-badge tag-gold">Presentacion 3</span>
+          <span class="project-gdrive-badge">📎 Drive</span>
+          <div class="project-thumb-icon">🎮</div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">Roles del analista de sistemas</div>
+          <p class="project-desc">Se explora las funciones que realiza un analista de sistemas y la importancia del mismo.</p>
+          <div class="project-footer">
+            <div class="project-members">
+              <div class="member-dot">SP</div>
+              <div class="member-dot">TM</div>
+              <div class="member-dot">TT</div>
+              <div class="member-dot">TG</div>
+              <div class="member-dot">ML</div>
+              <div class="member-dot">MG</div>
+              <div class="member-dot">UL</div>
+            </div>
+            <span class="project-link">Ver trabajo →</span>
+          </div>
+        </div>
+      </a>
+      <a class="project-card reveal" href="https://drive.google.com/drive/folders/TU_FOLDER_ID_AQUI" target="_blank">
+        <div class="project-thumb">
+          <div class="project-thumb-pattern"></div>
+          <span class="project-type-badge tag-green">Presentacion 4</span>
+          <span class="project-gdrive-badge">📎 Drive</span>
+          <div class="project-thumb-icon">🛒</div>
+        </div>
+        <div class="project-body">
+          <div class="project-title">E-Commerce Local</div>
+          <p class="project-desc">Plataforma de comercio electrónico para pequeños negocios con panel de administración e integración de pagos.</p>
+          <div class="project-footer">
+            <div class="project-members">
+              <div class="member-dot">SP</div>
+              <div class="member-dot">TM</div>
+              <div class="member-dot">TT</div>
+              <div class="member-dot">TG</div>
+              <div class="member-dot">ML</div>
+              <div class="member-dot">MG</div>
+              <div class="member-dot">UL</div>
+            </div>
+            <span class="project-link">Ver trabajo →</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-tag reveal">Contacto</p>
+    <h2 class="section-title reveal">Nuestros medios de contacto</h2>
+    
+
+    <div class="contact-grid reveal">
+      <div class="contact-card">
+        <div class="contact-label">Teléfono</div>
+        <div class="contact-value">+54 9 2224 44-2278</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-label">Email</div>
+        <div class="contact-value">Institución214@gmail.com</div>
+      </div>
+      <div class="contact-card" style="grid-column: 1 / -1;">
+        <div class="contact-label">Institución</div>
+        <div class="contact-value">7° 4° Programación —  2026</div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-left">© 2026 PRO7G · Todos los derechos reservados</div>
+  <div class="footer-socials">
+    <a href="#" title="Facebook">fb</a>
+    <a href="#" title="X/Twitter">𝕏</a>
+    <a href="#" title="Instagram">ig</a>
+    
+  </div>
+</footer>
+
+<script src="queque.js"></script>
+</body>
+</html>
